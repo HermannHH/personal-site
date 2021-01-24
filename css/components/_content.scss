@@ -1,7 +1,14 @@
 #content {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  // width: 30%;
+  width: 80%;
+  @include responsive('medium'){
+    width: 40%;
+  }
+  @include responsive('large'){
+    width: 30%;
+  }
   justify-content: center;
   align-items: center;
   padding-top: 3%;
