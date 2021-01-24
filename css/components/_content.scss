@@ -1,0 +1,46 @@
+#content {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3%;
+  text-align: center;
+
+  #avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px #1C2933 solid;
+    background-image: url("../../images/headshot.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #profile {
+    background-color: #ffffff;
+    margin-top: 30px;
+    width: 100%;
+    text-align: justify;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 15px;
+    line-height: 1.75rem;
+  }
+
+  #connect-container {
+    display: flex;
+    align-items: space-between;
+    justify-content: space-between;
+    padding: 20px 40px;
+    > a {
+      font-size:30px;
+      cursor: pointer;
+      color: #FCC75D;
+      outline: 0;
+      &:hover {
+        color: #0D1925;
+      }
+    }
+  }
+}
